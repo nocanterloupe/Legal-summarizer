@@ -2,3 +2,4 @@ streamlit
 transformers
 pdfplumber
 python-docx
+docx2txt
