@@ -6,7 +6,7 @@ import tempfile
 
 # Load your fine-tuned summarization model
 # Replace 'your-fine-tuned-model-name' with your real model name (if uploaded to Hugging Face)
-summarizer = pipeline("summarization", model="your-fine-tuned-model-name")
+summarizer = pipeline("summarization", model="nocanterloupe/legal-summarizer")
 
 # Extract text from PDF
 def extract_text_from_pdf(file):
